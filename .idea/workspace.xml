@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1d2642a-f84e-4927-aca4-3c331e47dbd7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YSqPLysQFt63nd7yLjwrhnt7Xe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/anaconda3/bin/pyuic5" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.main_window">
+    <configuration name="main_window" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="five_star" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_window.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="use_menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="five_star" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/use_menu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main_window" />
+        <item itemvalue="Python.use_menu" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1d2642a-f84e-4927-aca4-3c331e47dbd7" name="Default Changelist" comment="" />
+      <created>1582946317340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582946317340</updated>
+      <workItem from="1582946319221" duration="482000" />
+      <workItem from="1582948130894" duration="47458000" />
+      <workItem from="1583088234749" duration="2247000" />
+      <workItem from="1583120605579" duration="7069000" />
+      <workItem from="1583117511264" duration="597000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2234" y="387" width="424" height="584" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1582963216010">
+      <screen x="1920" y="0" width="1080" height="1920" />
+    </state>
+    <state x="2234" y="387" width="424" height="584" key="#com.intellij.ide.macro.MacrosDialog/63.27.1857.1053/1920.0.1080.1920@1920.0.1080.1920" timestamp="1582963216010" />
+    <state x="2196" y="510" width="510" height="337" key="#com.intellij.tools.ToolEditorDialog" timestamp="1582963217405">
+      <screen x="1920" y="0" width="1080" height="1920" />
+    </state>
+    <state x="2196" y="510" width="510" height="337" key="#com.intellij.tools.ToolEditorDialog/63.27.1857.1053/1920.0.1080.1920@1920.0.1080.1920" timestamp="1582963217405" />
+    <state x="2234" y="437" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582963175033">
+      <screen x="1920" y="0" width="1080" height="1920" />
+    </state>
+    <state x="2234" y="437" width="424" height="484" key="FileChooserDialogImpl/63.27.1857.1053/1920.0.1080.1920@1920.0.1080.1920" timestamp="1582963175033" />
+    <state width="1037" height="568" key="GridCell.Tab.0.bottom" timestamp="1583118285302">
+      <screen x="1920" y="-854" width="1080" height="1880" />
+    </state>
+    <state width="1037" height="568" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-854.1080.1880@1920.-854.1080.1880" timestamp="1583118285302" />
+    <state width="1034" height="183" key="GridCell.Tab.0.bottom/63.27.1857.1053/1920.0.1080.1920@1920.0.1080.1920" timestamp="1583135871486" />
+    <state width="1811" height="183" key="GridCell.Tab.0.bottom/63.27.1857.1053/1920.0.1080.1920@63.27.1857.1053" timestamp="1583026483202" />
+    <state width="1037" height="568" key="GridCell.Tab.0.center" timestamp="1583118285301">
+      <screen x="1920" y="-854" width="1080" height="1880" />
+    </state>
+    <state width="1037" height="568" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-854.1080.1880@1920.-854.1080.1880" timestamp="1583118285301" />
+    <state width="1034" height="183" key="GridCell.Tab.0.center/63.27.1857.1053/1920.0.1080.1920@1920.0.1080.1920" timestamp="1583135871486" />
+    <state width="1811" height="183" key="GridCell.Tab.0.center/63.27.1857.1053/1920.0.1080.1920@63.27.1857.1053" timestamp="1583026483202" />
+    <state width="1037" height="568" key="GridCell.Tab.0.left" timestamp="1583118285301">
+      <screen x="1920" y="-854" width="1080" height="1880" />
+    </state>
+    <state width="1037" height="568" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-854.1080.1880@1920.-854.1080.1880" timestamp="1583118285301" />
+    <state width="1034" height="183" key="GridCell.Tab.0.left/63.27.1857.1053/1920.0.1080.1920@1920.0.1080.1920" timestamp="1583135871486" />
+    <state width="1811" height="183" key="GridCell.Tab.0.left/63.27.1857.1053/1920.0.1080.1920@63.27.1857.1053" timestamp="1583026483202" />
+    <state width="1037" height="568" key="GridCell.Tab.0.right" timestamp="1583118285302">
+      <screen x="1920" y="-854" width="1080" height="1880" />
+    </state>
+    <state width="1037" height="568" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-854.1080.1880@1920.-854.1080.1880" timestamp="1583118285302" />
+    <state width="1034" height="183" key="GridCell.Tab.0.right/63.27.1857.1053/1920.0.1080.1920@1920.0.1080.1920" timestamp="1583135871486" />
+    <state width="1811" height="183" key="GridCell.Tab.0.right/63.27.1857.1053/1920.0.1080.1920@63.27.1857.1053" timestamp="1583026483202" />
+    <state x="289" y="162" key="SettingsEditor" timestamp="1583117543630">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="289" y="162" key="SettingsEditor/0.0.1920.1040/1920.-854.1080.1880@1920.-854.1080.1880" timestamp="1583117543630" />
+    <state x="1945" y="314" key="SettingsEditor/63.27.1857.1053/1920.0.1080.1920@1920.0.1080.1920" timestamp="1583120644350" />
+    <state x="329" y="182" key="SettingsEditor/63.27.1857.1053/1920.0.1080.1920@63.27.1857.1053" timestamp="1583027930598" />
+    <state x="2116" y="786" key="com.intellij.ide.util.TipDialog" timestamp="1583120606908">
+      <screen x="1920" y="0" width="1080" height="1920" />
+    </state>
+    <state x="2116" y="786" key="com.intellij.ide.util.TipDialog/63.27.1857.1053/1920.0.1080.1920@1920.0.1080.1920" timestamp="1583120606908" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/five_star$use_button_and_label.coverage" NAME="main_window Coverage Results" MODIFIED="1583114967497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/five_star$use_menu.coverage" NAME="use_menu Coverage Results" MODIFIED="1582964897920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/five_star$main_window.coverage" NAME="main_window Coverage Results" MODIFIED="1583117610084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
