@@ -98,7 +98,7 @@ class AStar(object):
                 # if j == 0 and q == 0:  # 搜索到父节点去掉
                 #     continue
                 m = [x[0] + delta_x, x[1] + delta_y]
-                print(m)
+                # print(m)
                 if m[0] < 0 or m[0] > self.size[0]-1 or m[1] < 0 or m[1] > self.size[1]-1:  # 搜索点出了边界去掉
                     continue
 

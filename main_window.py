@@ -245,7 +245,6 @@ class Mywindow(QtWidgets.QMainWindow):
         """
         print('received pressed_but_not_select signal')
         if self.selected_loc is not None:
-            current_color = self.map.data[self.selected_loc[0], self.selected_loc[1]].color
             astar = AStar()
             converted_map = self.map.get_valid_map()*10
             converted_map = converted_map.astype(np.float)
@@ -288,7 +287,7 @@ class Mywindow(QtWidgets.QMainWindow):
 
     def cancel_selected(self):
         # print('entering the cancel_selected method')
-        current_color = colors[self.map.data[self.selected_loc[0], self.selected_loc[1]].color]
+        current_color = colors[self.map.get_loc_color(self.selected_loc)]
 
         self.map.set_loc_color(self.selected_loc, current_color)
         self.map.data[self.selected_loc[0], self.selected_loc[1]].label_pressed = False
@@ -296,7 +295,7 @@ class Mywindow(QtWidgets.QMainWindow):
 
     def mark_selected(self):
         # print(self.map.data[self.selected_loc[0],self.selected_loc[1]].color)
-        current_color = colors[self.map.data[self.selected_loc[0],self.selected_loc[1]].color]
+        current_color = colors[self.map.get_loc_color(self.selected_loc)]
         print('current color is ', current_color)
         modified_color = current_color.copy()
         # brighter the current selected cell: add 75 to each channel(RGB)

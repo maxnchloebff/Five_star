@@ -6,28 +6,32 @@ import random
 content = {1:'blue', 2:'black', 3:'red',4:'yellow',5:'brown'}
 colors = {'blue':[0,0,255], 'red':[255,0,0], 'black':[0,0,0], 'yellow':[210,105,30], 'brown':[46,139,87]}
 from PyQt5 import QtCore, QtWidgets, QtGui
+from PyQt5.QtCore import *
+from PyQt5.QtWidgets import *
+from PyQt5.QtGui import *
+
 import time
 class Cell:
 
     def __init__(self, x: int = 0, y: int = 0, color: str = None):
         self.x = x
         self.y = y
-        self.color = color
+        self.color_str = color
 
     def set_valid(self):
-        self.color = None
+        self.color_str = None
 
-    def set_color(self, color):
-        self.color = color
+    def _set_color(self, color):
+        self.color_str = color
 
     def position(self):
         return self.x,  self.y
 
     def get_color(self):
-        return self.color
+        return self.color_str
 
     def __bool__(self):
-        if self.color is None:
+        if self.color_str is None:
             return True
         else:
             return False
@@ -57,7 +61,7 @@ class Mylabel(QtWidgets.QLabel, Cell):
             size = [50, 50]
         self.x = x
         self.y = y
-        self.color = color
+        self.color_str = color
         self.selected = False
         self.label_pressed = False
         self.setMinimumSize(size[0], size[1])
@@ -67,6 +71,7 @@ class Mylabel(QtWidgets.QLabel, Cell):
         self.setObjectName('Label_'+str(x)+str(y))
         if if_valid:
             self.set_valid()
+        # self.color = pyqtProperty(QColor, fset=self._set_color)
 
     def mousePressEvent(self, ev:QtGui.QMouseEvent):
         # check_
@@ -74,9 +79,9 @@ class Mylabel(QtWidgets.QLabel, Cell):
         self.label_pressed = True
 
     def mouseReleaseEvent(self, ev: QtGui.QMouseEvent) -> None:
-
+        print(self.objectName(),' released')
         if self.label_pressed:
-            if self.color is not None:
+            if self.color_str is not None:
                 self.selected = True
                 print('emit selected_signal')
                 self.selected_signal.emit(self.x, self.y)
@@ -88,11 +93,11 @@ class Mylabel(QtWidgets.QLabel, Cell):
                 self.pressed_but_nonselect_signal.emit(self.x, self.y)
             self.label_pressed = False
 
-    def set_color(self, color_):
+    def _set_color(self, color_):
         self.clear()
         if type(color_)  == str:
             qcolor = QtGui.QColor(*(colors[color_]))
-            self.color = color_
+            self.color_str = color_
         elif type(color_) == QtGui.QColor:
             qcolor = color_
         else:
@@ -108,7 +113,8 @@ class Mylabel(QtWidgets.QLabel, Cell):
         self.setPixmap(pix)
 
     def set_valid(self):
-        self.color = None
+        self.color_str = None
+
         self.selected = False
         self.clear()
         pix = QtGui.QPixmap(50,50)
@@ -120,7 +126,7 @@ class Map:
 
     def __init__(self, size: tuple,parent,main_app, cell_type:object=Mylabel):
         self.size = size
-        self.data = np.empty(size, dtype=cell_type)
+        self.data = np.empty(size, dtype=Mylabel)
         self.main_app =main_app
         for x in range(size[0]):
             for y in range(size[1]):
@@ -152,15 +158,15 @@ class Map:
         :param color: string type!!!!!
         :return:
         """
-        self.data[loc[0], loc[1]].set_color(color)
+        self.data[loc[0], loc[1]]._set_color(color)
 
     def clear_loc(self, loc):
         self.data[loc[0],loc[1]].set_valid()
 
     def flash_starttoend(self, path):
+        print('进入移动动画')
         path = path.copy()
         path = path.astype(np.int)
-        print('转换玩',path[:,0])
         color = self.get_loc_color(path[:,0])
         previous_loc = path[:,0]
         current_loc = path[:,1]
@@ -201,7 +207,7 @@ class Map:
         return total_kill
 
     def get_loc_color(self,loc):
-        return self.data[loc[0],loc[1]].color
+        return self.data[loc[0],loc[1]].color_str
 
     def judge_five(self, loc:np.array):
         print('enter judge five')
